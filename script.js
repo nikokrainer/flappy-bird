@@ -15,7 +15,7 @@ let game = false
 let jumping = false
 let counter
 let score = 0
-let highScore = 0
+let highScore
 
 let gameWidth = parseInt(
   window.getComputedStyle(document.documentElement).getPropertyValue("--width")
